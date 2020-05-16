@@ -1,0 +1,5 @@
+<span><img class= 'bd-placeholder-img' width='15%' height='auto' [src]='cartItem.productImage'></span>
+<span>{{cartItem.productName}}</span> x <span> {{cartItem.qty}}</span>:
+<strong>{{(cartItem.qty * cartItem.price) | currency}}</strong>
+<button (click)='onDelete(cartItem)' class='del btn btn-sm'>X</button>
+
