@@ -7,3 +7,11 @@
     .card:hover{
         transform: scale(1.1);
      */
+
+     .float-right{
+         cursor: pointer;
+     }
+
+     .added{
+        color:palevioletred;
+     }

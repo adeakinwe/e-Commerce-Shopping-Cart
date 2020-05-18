@@ -3,6 +3,8 @@
 <div class="card-body">
     <p class="card-text">
       <strong> {{productItem.price | currency}} </strong>
+      <i *ngIf = "addedToWishlist" class="fa fa-heart float-right added" (click) = "removeProductFromWishlist()"></i>
+      <i *ngIf = "!addedToWishlist" class="fa fa-heart float-right" (click) = "addProductToWishlist()"></i>
     </p>
     <p class="card-text my-font">
         {{productItem.title}}

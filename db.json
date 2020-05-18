@@ -1,0 +1,590 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "hang-out bicycle",
+      "description": "Description 1",
+      "price": 150,
+      "imageUrl": "./assets/bicycle.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Vans Sneekers",
+      "description": "Description 2",
+      "price": 250,
+      "imageUrl": "./assets/shoe (1).jpg"
+    },
+    {
+      "id": 3,
+      "title": "Nike Sneekers",
+      "description": "Description 3",
+      "price": 100,
+      "imageUrl": "./assets/shoe (5).jpg"
+    },
+    {
+      "id": 4,
+      "title": "Fancy Polo",
+      "description": "Description 4",
+      "price": 150,
+      "imageUrl": "./assets/shoe (6).jpg"
+    },
+    {
+      "id": 5,
+      "title": "Breathable Sneekers",
+      "description": "Description 5",
+      "price": 250,
+      "imageUrl": "./assets/shoe (4).jpg"
+    },
+    {
+      "id": 6,
+      "title": "Beach top",
+      "description": "Description 6",
+      "price": 100,
+      "imageUrl": "./assets/shoe (7).jpg"
+    },
+    {
+      "id": 7,
+      "title": "fancy top",
+      "description": "Description 7",
+      "price": 150,
+      "imageUrl": "./assets/shoe (3).jpg"
+    },
+    {
+      "id": 8,
+      "title": "shop bag",
+      "description": "Description 8",
+      "price": 250,
+      "imageUrl": "./assets/shoe (2).jpg"
+    },
+    {
+      "id": 9,
+      "title": "Baby doll",
+      "description": "Description 9",
+      "price": 100,
+      "imageUrl": "./assets/item.png"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 2
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 5,
+        "title": "Breathable Sneekers",
+        "description": "Description 5",
+        "price": 250,
+        "imageUrl": "./assets/shoe (4).jpg"
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 4,
+        "title": "Fancy Polo",
+        "description": "Description 4",
+        "price": 150,
+        "imageUrl": "./assets/shoe (6).jpg"
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 5,
+        "title": "Breathable Sneekers",
+        "description": "Description 5",
+        "price": 250,
+        "imageUrl": "./assets/shoe (4).jpg"
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 4,
+        "title": "Fancy Polo",
+        "description": "Description 4",
+        "price": 150,
+        "imageUrl": "./assets/shoe (6).jpg"
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 20
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 21
+    },
+    {
+      "product": {
+        "id": 4,
+        "title": "Fancy Polo",
+        "description": "Description 4",
+        "price": 150,
+        "imageUrl": "./assets/shoe (6).jpg"
+      },
+      "id": 22
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 23
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 24
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 25
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 26
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 27
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 28
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 29
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 31
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 32
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 33
+    },
+    {
+      "product": {
+        "id": 9,
+        "title": "Baby doll",
+        "description": "Description 9",
+        "price": 100,
+        "imageUrl": "./assets/item.png"
+      },
+      "id": 34
+    },
+    {
+      "product": {
+        "id": 8,
+        "title": "shop bag",
+        "description": "Description 8",
+        "price": 250,
+        "imageUrl": "./assets/shoe (2).jpg"
+      },
+      "id": 35
+    },
+    {
+      "product": {
+        "id": 8,
+        "title": "shop bag",
+        "description": "Description 8",
+        "price": 250,
+        "imageUrl": "./assets/shoe (2).jpg"
+      },
+      "id": 36
+    },
+    {
+      "product": {
+        "id": 7,
+        "title": "fancy top",
+        "description": "Description 7",
+        "price": 150,
+        "imageUrl": "./assets/shoe (3).jpg"
+      },
+      "id": 37
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 38
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 39
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 40
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 41
+    },
+    {
+      "product": {
+        "id": 2,
+        "title": "Vans Sneekers",
+        "description": "Description 2",
+        "price": 250,
+        "imageUrl": "./assets/shoe (1).jpg"
+      },
+      "id": 42
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 43
+    },
+    {
+      "product": {
+        "id": 4,
+        "title": "Fancy Polo",
+        "description": "Description 4",
+        "price": 150,
+        "imageUrl": "./assets/shoe (6).jpg"
+      },
+      "id": 44
+    },
+    {
+      "product": {
+        "id": 8,
+        "title": "shop bag",
+        "description": "Description 8",
+        "price": 250,
+        "imageUrl": "./assets/shoe (2).jpg"
+      },
+      "id": 45
+    },
+    {
+      "product": {
+        "id": 8,
+        "title": "shop bag",
+        "description": "Description 8",
+        "price": 250,
+        "imageUrl": "./assets/shoe (2).jpg"
+      },
+      "id": 46
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 47
+    },
+    {
+      "product": {
+        "id": 1,
+        "title": "hang-out bicycle",
+        "description": "Description 1",
+        "price": 150,
+        "imageUrl": "./assets/bicycle.jpg"
+      },
+      "id": 48
+    },
+    {
+      "product": {
+        "id": 3,
+        "title": "Nike Sneekers",
+        "description": "Description 3",
+        "price": 100,
+        "imageUrl": "./assets/shoe (5).jpg"
+      },
+      "id": 49
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

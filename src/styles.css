@@ -2,10 +2,12 @@
 .my-font{
     font-family: cursive;
 }
+
 .dark{
     color: black;
     text-decoration: none;
+    float: right;
 }
 *{
-    font-family: fantasy;
+    font-family: cursive;
 }

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MessengerService } from '../../../services/messenger.service';
 import { Product } from '../../../models/product';
+import { CartService } from 'src/app/services/cart.service';
+import { CartItem } from 'src/app/models/cart-item';
 
 @Component({
   selector: 'app-cart',
@@ -8,49 +10,41 @@ import { Product } from '../../../models/product';
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
-cartItems = [
-  // {id:1, productId: 2, productName: 'Product 2',qty: 2, price:50},
-  // {id:2,productId: 3, productName: 'Product 3', qty: 3, price:100},
-  // {id:3,productId: 1, productName: 'Product 1', qty: 2, price:150},
-];
+cartItems = [];
 
 cartTotal = 0;
 
-  constructor(private ms: MessengerService) { }
+  constructor(
+    private ms: MessengerService,
+    private cs: CartService) { }
 
   ngOnInit() {
-    this.ms.getMsg().subscribe((product:Product) => {
-    this.sendToCart(product);  
+    this.sendToCartMsg();
+    this.reloadCartItems();
+  }
+
+  sendToCartMsg() {
+    this.ms.getMsg().subscribe((product: Product) => {
+      this.reloadCartItems();
     });
-
   }
 
-  sendToCart(product: Product){
-    let productExists = false;
-    for(let i in this.cartItems){
-      if(this.cartItems[i].productId === product.id){
-        this.cartItems[i].qty++;
-        productExists = true;
-        break;
-      }
-    }
-    if(!productExists){
-      this.cartItems.push({
-        productImage:product.imageUrl,
-        productId: product.id,
-        productName: product.title,
-        qty:1,
-        price: product.price
-      });
-    }
+  reloadCartItems(){
+    this.cs.getcartItems().subscribe((items:CartItem[])=>{
+      this.cartItems = items;
+      this.calcCarttotal();
+    })
+  }
 
+  calcCarttotal(){
     this.cartTotal = 0;
-    this.cartItems.forEach((cartItem) => {
-      return this.cartTotal += (cartItem.qty * cartItem.price)});
-  }
-
-  deleteCartItem(cartItem:any){ 
-    
+    this.cartItems.forEach((item) => {
+    this.cartTotal += (item.qty * item.price)
+  });
   }
 }
+  // deleteCartItem(cartItem:any){ 
+    
+  // }
+
  
