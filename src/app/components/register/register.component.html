@@ -1,0 +1,83 @@
+<p class="alert alert-info">Do you have an account?
+    <a class='mb-5 ml-2' [routerLink]="['/login']">Login</a>
+</p>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h2>Register</h2>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="registerForm" (ngSubmit)="register()" auto-complete="off">
+                    <div class="form-group"> 
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class='fa fa-user fa-lg fa-fw' aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        <input id='name' type="text" placeholder="Name" class="form-control" formControlName="name"
+                        [ngClass]="{'is-invalid': registerForm.get('name').touched && registerForm.get('name').invalid}">
+                        <span class="invalid-feedback">Please enter your Name.</span> 
+                    </div>
+                    </div>
+                    <div class="form-group"> 
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class='fa fa-envelope fa-lg fa-fw' aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        <input id='email' type="email" placeholder="Email" class="form-control" formControlName="email"
+                        [ngClass]="{'is-invalid': registerForm.get('email').touched && registerForm.get('email').invalid}">
+                        <span class="invalid-feedback">
+                            <span *ngIf="registerForm.get('email').hasError('required')">Please enter your email</span>
+                            <span *ngIf="registerForm.get('email').hasError('email')">Please enter a valid email</span>
+                        </span> 
+                    </div>
+                    </div>
+                    <div class="form-group"> 
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class='fa fa-user fa-lg fa-fw' aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        <input id='username' type="text" placeholder="Username" class="form-control" formControlName="username"
+                        [ngClass]="{'is-invalid': registerForm.get('username').touched && registerForm.get('username').invalid}">
+                        <span class="invalid-feedback">Please enter a username.</span> 
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class='fa fa-key fa-lg fa-fw' aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        <input type='password' id='password' placeholder="Password" class="form-control" formControlName="password"
+                        [ngClass]="{'is-invalid': registerForm.get('password').touched && registerForm.get('password').invalid}">
+                        <span class="invalid-feedback">
+                            <span *ngIf="registerForm.get('password').hasError('required')">Password can't be blank.</span>
+                            <span *ngIf="registerForm.get('password').hasError('symbol')">Password must contain at least one special character.</span>
+                            <span *ngIf="registerForm.get('password').hasError('minlength')">Password must be at least 4 characters.</span>
+                            </span>
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class='fa fa-key fa-lg fa-fw' aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        <input type='password' id='ConfirmPassword' placeholder="Confirm Password" class="form-control" formControlName="confirmPassword"
+                        [ngClass]="{'is-invalid': registerForm.get('confirmPassword').touched && registerForm.get('confirmPassword').invalid}">
+                        <span class="invalid-feedback">Password must match.</span>
+                    </div>
+                    </div>
+                   
+                    <div class="form-group">
+                        <button class="btn-info btn-lg btn-block" [disabled]="registerForm.invalid">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

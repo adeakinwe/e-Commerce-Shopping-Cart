@@ -76,6 +76,12 @@
     },
     {
       "id": 5
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 1
     }
   ],
   "cart": [
@@ -568,6 +574,26 @@
         "imageUrl": "./assets/shoe (5).jpg"
       },
       "id": 49
+    },
+    {
+      "product": {
+        "id": 9,
+        "title": "Baby doll",
+        "description": "Description 9",
+        "price": 100,
+        "imageUrl": "./assets/item.png"
+      },
+      "id": 50
+    },
+    {
+      "product": {
+        "id": 9,
+        "title": "Baby doll",
+        "description": "Description 9",
+        "price": 100,
+        "imageUrl": "./assets/item.png"
+      },
+      "id": 51
     }
   ],
   "posts": [

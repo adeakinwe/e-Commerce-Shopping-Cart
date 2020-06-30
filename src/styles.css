@@ -11,3 +11,7 @@
 *{
     font-family: cursive;
 }
+
+.btn-info.disabled, .btn-info:disabled{
+    cursor: not-allowed;
+}
