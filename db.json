@@ -66,9 +66,6 @@
   ],
   "wishlist": [
     {
-      "id": 2
-    },
-    {
       "id": 8
     },
     {
@@ -76,9 +73,6 @@
     },
     {
       "id": 5
-    },
-    {
-      "id": 3
     },
     {
       "id": 1
@@ -594,6 +588,36 @@
         "imageUrl": "./assets/item.png"
       },
       "id": 51
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 52
+    },
+    {
+      "product": {
+        "id": 5,
+        "title": "Breathable Sneekers",
+        "description": "Description 5",
+        "price": 250,
+        "imageUrl": "./assets/shoe (4).jpg"
+      },
+      "id": 53
+    },
+    {
+      "product": {
+        "id": 5,
+        "title": "Breathable Sneekers",
+        "description": "Description 5",
+        "price": 250,
+        "imageUrl": "./assets/shoe (4).jpg"
+      },
+      "id": 54
     }
   ],
   "posts": [
