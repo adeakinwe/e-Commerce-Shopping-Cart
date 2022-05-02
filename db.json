@@ -76,6 +76,12 @@
     },
     {
       "id": 1
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 4
     }
   ],
   "cart": [
@@ -618,6 +624,46 @@
         "imageUrl": "./assets/shoe (4).jpg"
       },
       "id": 54
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 55
+    },
+    {
+      "product": {
+        "id": 6,
+        "title": "Beach top",
+        "description": "Description 6",
+        "price": 100,
+        "imageUrl": "./assets/shoe (7).jpg"
+      },
+      "id": 56
+    },
+    {
+      "product": {
+        "id": 9,
+        "title": "Baby doll",
+        "description": "Description 9",
+        "price": 100,
+        "imageUrl": "./assets/item.png"
+      },
+      "id": 57
+    },
+    {
+      "product": {
+        "id": 9,
+        "title": "Baby doll",
+        "description": "Description 9",
+        "price": 100,
+        "imageUrl": "./assets/item.png"
+      },
+      "id": 58
     }
   ],
   "posts": [
